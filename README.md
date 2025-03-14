@@ -5,24 +5,27 @@ This research aims to predict mortality for ICU sepsis patients at 12, 24, and 4
 ## Project Structure
 
 ```
-environment.yml
-Models_12h.ipynb
-Models_24h.ipynb
-Models_48h.ipynb
-confidenceinterval/
-    goldstandard.py
-    ModelEvaluationUtils.py
-Fine_tuning/
-    Optuna_12h.ipynb
-    Optuna_24h.ipynb
-    Optuna_48h.ipynb
-Miceforest/
-    imputation.py
-preprocessing/
-    Diferencia.ipynb
-    preprocessing_eICU.ipynb
-    preprocessing_mimic.ipynb
-    unir_flag.ipynb
+├── environment.yml
+├── Models_12h.ipynb
+├── Models_24h.ipynb
+├── Models_48h.ipynb
+├── confidenceinterval/
+│   ├── goldstandard.py
+│   ├── ModelEvaluationUtils.py
+│   └── __pycache__/
+│       ├── goldstandard.cpython-312.pyc
+│       └── ModelEvaluationUtils.cpython-312.pyc
+├── Fine_tuning/
+│   ├── Optuna_12h.ipynb
+│   ├── Optuna_24h.ipynb
+│   ├── Optuna_48h.ipynb
+├── Miceforest/
+│   └── imputation.py
+└── preprocessing/
+    ├── Diferencia.ipynb
+    ├── preprocessing_eICU.ipynb
+    ├── preprocessing_mimic.ipynb
+    └── unir_flag.ipynb
 ```
 
 ### Files and Directories
