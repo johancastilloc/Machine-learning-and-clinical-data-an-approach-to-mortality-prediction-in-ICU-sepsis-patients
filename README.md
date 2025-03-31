@@ -20,12 +20,12 @@ This research aims to predict mortality for ICU sepsis patients at 12, 24, and 4
 │   ├── Optuna_24h.ipynb
 │   ├── Optuna_48h.ipynb
 ├── Miceforest/
-│   └── imputation.py
+│   └── Imputation.py
 └── preprocessing/
-    ├── Diferencia.ipynb
-    ├── preprocessing_eICU.ipynb
-    ├── preprocessing_mimic.ipynb
-    └── unir_flag.ipynb
+    ├── Difference.ipynb
+    ├── Preprocessing_eICU.ipynb
+    ├── Preprocessing_mimic.ipynb
+    └── Unite_flag.ipynb
 ```
 
 ### Files and Directories
@@ -38,12 +38,12 @@ This research aims to predict mortality for ICU sepsis patients at 12, 24, and 4
 - **Fine_tuning/**: Contains notebooks for model fine-tuning using Optuna.
   - `Optuna_12h.ipynb, Optuna_24h.ipynb, Optuna_48h.ipynb`: Notebooks for model fine-tuning at 12, 24, and 48 hours respectively.
 - **Miceforest/**: Contains scripts for missing value imputation.
-  - `imputation.py`: Script for data imputation using Miceforest.
+  - `Imputation.py`: Script for data imputation using Miceforest.
 - **preprocessing/**: Contains notebooks for data preprocessing.
-  - `Diferencia.ipynb`: Notebook to identify differences between columns of different datasets.
-  - `preprocessing_eICU.ipynb`: Notebook for preprocessing data from the eICU dataset.
-  - `preprocessing_mimic.ipynb`: Notebook for preprocessing data from the MIMIC-IV dataset.
-  - `unir_flag.ipynb`: Notebook to merge data and add the hospital expiration flag column.
+  - `Difference.ipynb`: Notebook to identify differences between columns of different datasets.
+  - `Preprocessing_eICU.ipynb`: Notebook for preprocessing data from the eICU dataset.
+  - `Preprocessing_mimic.ipynb`: Notebook for preprocessing data from the MIMIC-IV dataset.
+  - `Unite_flag.ipynb`: Notebook to merge data and add the hospital expiration flag column.
 
 ## Installation
 
@@ -64,13 +64,13 @@ conda activate sepsis
 2. Run the notebooks in the following order to reproduce the results:
 
 - Data Preprocessing:
-  - `preprocessing/preprocessing_eICU.ipynb`
-  - `preprocessing/preprocessing_mimic.ipynb`
-  - `preprocessing/unir_flag.ipynb`
-  - `preprocessing/Diferencia.ipynb`
+  - `preprocessing/Preprocessing_eICU.ipynb`
+  - `preprocessing/Preprocessing_mimic.ipynb`
+  - `preprocessing/Unite_flag.ipynb`
+  - `preprocessing/Difference.ipynb`
 
 - Data Imputation:
-  - `Miceforest/imputation.py`
+  - `Miceforest/Imputation.py`
 
 - Model Fine-Tuning:
   - `Fine_tuning/Optuna_12h.ipynb`
