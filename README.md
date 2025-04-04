@@ -1,4 +1,4 @@
-# Multicenter validation of a machine learning algorithm for mortality prediction at decision-critical timestamps in ICU sepsis patients
+# Machine learning and clinical data: an approach to mortality prediction in ICU sepsis patients
 
 This research aims to predict mortality for ICU sepsis patients at 12, 24, and 48 hours in advance through machine learning models based on clinical data. The project includes data preprocessing, missing value imputation, model fine-tuning, and model evaluation.
 
